@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Developer Learning Paths 2026</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Comprehensive 6-week learning paths for AI-Native and AI Agent development. Master modern AI-powered development with interactive labs and Chrome Gemini integration.">
+    <meta name="keywords" content="AI development, learning path, AI agents, MCP, prompt engineering, JavaScript, tutorial, education">
+    <meta name="author" content="Dinesh Phadatare">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dphadtare.github.io/ai-developer-learning-paths/">
+    <meta property="og:title" content="AI Developer Learning Paths 2026">
+    <meta property="og:description" content="Comprehensive 6-week learning paths for AI-Native and AI Agent development with interactive labs.">
+    <meta property="og:image" content="https://dphadtare.github.io/ai-developer-learning-paths/assets/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dphadtare.github.io/ai-developer-learning-paths/">
+    <meta property="twitter:title" content="AI Developer Learning Paths 2026">
+    <meta property="twitter:description" content="Comprehensive 6-week learning paths for AI-Native and AI Agent development with interactive labs.">
+    <meta property="twitter:image" content="https://dphadtare.github.io/ai-developer-learning-paths/assets/og-image.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .tech-badge {
+            transition: all 0.2s ease;
+        }
+        
+        .tech-badge:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 min-h-screen">
+    
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold gradient-text">AI Developer Learning Paths</h1>
+                    <p class="text-slate-600 mt-1">Master AI-powered development in 6 weeks</p>
+                </div>
+                <a href="https://github.com/dphadtare/ai-developer-learning-paths" 
+                   target="_blank"
+                   class="flex items-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition-colors">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/>
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center mb-16 animate-fade-in">
+            <div class="inline-block mb-6 animate-float">
+                <div class="text-8xl">🚀</div>
+            </div>
+            <h2 class="text-5xl font-bold text-slate-900 mb-6">
+                Choose Your Learning Path
+            </h2>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                Two comprehensive 6-week programs designed to transform you into an AI-powered developer. 
+                Each path includes interactive labs, real-world projects, and Chrome Gemini AI mentor integration.
+            </p>
+        </div>
+
+        <!-- Learning Paths Grid -->
+        <div class="grid md:grid-cols-2 gap-8 mb-16">
+            
+            <!-- AI-Native Developer Track -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover border-2 border-transparent hover:border-indigo-500">
+                <div class="bg-gradient-to-r from-blue-500 to-indigo-600 p-8 text-white">
+                    <div class="text-5xl mb-4">💻</div>
+                    <h3 class="text-3xl font-bold mb-3">AI-Native Developer</h3>
+                    <p class="text-blue-100 text-lg">
+                        Master full-stack development with AI assistance
+                    </p>
+                </div>
+                
+                <div class="p-8">
+                    <div class="mb-6">
+                        <h4 class="font-semibold text-slate-900 mb-3 text-lg">What You'll Learn:</h4>
+                        <ul class="space-y-2 text-slate-600">
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-500 mt-1">✓</span>
+                                <span>JavaScript fundamentals & modern ES6+ features</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-500 mt-1">✓</span>
+                                <span>RESTful API design & implementation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-500 mt-1">✓</span>
+                                <span>Database design with PostgreSQL</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-500 mt-1">✓</span>
+                                <span>React UI architecture & state management</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-500 mt-1">✓</span>
+                                <span>Production deployment & monitoring</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-semibold text-slate-900 mb-3 text-lg">Tech Stack:</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="tech-badge bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="tech-badge bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Node.js</span>
+                            <span class="tech-badge bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Express</span>
+                            <span class="tech-badge bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">PostgreSQL</span>
+                            <span class="tech-badge bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">React</span>
+                            <span class="tech-badge bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Docker</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6 p-4 bg-blue-50 rounded-lg">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-2xl">⏱️</span>
+                            <span class="font-semibold text-slate-900">6 Weeks • 30 Days</span>
+                        </div>
+                        <p class="text-sm text-slate-600">5 days per week, 2-3 hours per day</p>
+                    </div>
+                    
+                    <a href="tracks/ai-native-developer.html" 
+                       class="block w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-indigo-700 transition-all shadow-md hover:shadow-lg">
+                        Start JavaScript Track →
+                    </a>
+                </div>
+            </div>
+
+            <!-- AI Agent Developer Track -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover border-2 border-transparent hover:border-purple-500">
+                <div class="bg-gradient-to-r from-purple-500 to-emerald-600 p-8 text-white">
+                    <div class="text-5xl mb-4">🤖</div>
+                    <h3 class="text-3xl font-bold mb-3">AI Agent Developer</h3>
+                    <p class="text-purple-100 text-lg">
+                        Build intelligent AI systems and agent orchestration
+                    </p>
+                </div>
+                
+                <div class="p-8">
+                    <div class="mb-6">
+                        <h4 class="font-semibold text-slate-900 mb-3 text-lg">What You'll Learn:</h4>
+                        <ul class="space-y-2 text-slate-600">
+                            <li class="flex items-start gap-2">
+                                <span class="text-purple-500 mt-1">✓</span>
+                                <span>Advanced prompt engineering techniques</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-purple-500 mt-1">✓</span>
+                                <span>AI tool development & integration</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-purple-500 mt-1">✓</span>
+                                <span>Model Context Protocol (MCP) mastery</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-purple-500 mt-1">✓</span>
+                                <span>Agent architecture & orchestration</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-purple-500 mt-1">✓</span>
+                                <span>Production AI deployment & monitoring</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-semibold text-slate-900 mb-3 text-lg">Tech Stack:</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="tech-badge bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                            <span class="tech-badge bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">MCP</span>
+                            <span class="tech-badge bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">LangChain</span>
+                            <span class="tech-badge bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">OpenAI</span>
+                            <span class="tech-badge bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Claude</span>
+                            <span class="tech-badge bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Cursor</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6 p-4 bg-purple-50 rounded-lg">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-2xl">⏱️</span>
+                            <span class="font-semibold text-slate-900">6 Weeks • 30 Days</span>
+                        </div>
+                        <p class="text-sm text-slate-600">5 days per week, 2-3 hours per day</p>
+                    </div>
+                    
+                    <a href="tracks/ai-agent-developer.html" 
+                       class="block w-full bg-gradient-to-r from-purple-500 to-emerald-600 text-white text-center py-4 rounded-xl font-semibold text-lg hover:from-purple-600 hover:to-emerald-700 transition-all shadow-md hover:shadow-lg">
+                        Start AI Agent Track →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 mb-16">
+            <h3 class="text-3xl font-bold text-slate-900 mb-8 text-center">Why These Learning Paths?</h3>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-5xl mb-4">📚</div>
+                    <h4 class="font-semibold text-slate-900 mb-2 text-lg">Structured Curriculum</h4>
+                    <p class="text-slate-600">
+                        Carefully designed 6-week programs with daily milestones and progressive difficulty
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-5xl mb-4">🧪</div>
+                    <h4 class="font-semibold text-slate-900 mb-2 text-lg">Hands-On Labs</h4>
+                    <p class="text-slate-600">
+                        Interactive coding exercises with real-world scenarios and immediate feedback
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-5xl mb-4">✨</div>
+                    <h4 class="font-semibold text-slate-900 mb-2 text-lg">AI Mentor Integration</h4>
+                    <p class="text-slate-600">
+                        Built-in Chrome Gemini integration for instant help and personalized guidance
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Getting Started Section -->
+        <div class="bg-gradient-to-r from-slate-900 to-slate-800 rounded-2xl shadow-lg p-8 text-white">
+            <h3 class="text-3xl font-bold mb-6 text-center">Ready to Get Started?</h3>
+            
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="flex items-start gap-4 p-4 bg-white bg-opacity-10 rounded-lg">
+                    <span class="text-2xl flex-shrink-0">1️⃣</span>
+                    <div>
+                        <h4 class="font-semibold mb-1">Choose Your Track</h4>
+                        <p class="text-slate-300 text-sm">Pick the learning path that aligns with your goals</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-start gap-4 p-4 bg-white bg-opacity-10 rounded-lg">
+                    <span class="text-2xl flex-shrink-0">2️⃣</span>
+                    <div>
+                        <h4 class="font-semibold mb-1">Set Up Chrome Gemini</h4>
+                        <p class="text-slate-300 text-sm">Enable Chrome's "Ask Gemini" feature for AI mentor support</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-start gap-4 p-4 bg-white bg-opacity-10 rounded-lg">
+                    <span class="text-2xl flex-shrink-0">3️⃣</span>
+                    <div>
+                        <h4 class="font-semibold mb-1">Start Learning</h4>
+                        <p class="text-slate-300 text-sm">Follow the daily milestones and complete hands-on labs</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="docs/SETUP_GUIDE.md" 
+                   class="inline-block bg-white text-slate-900 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition-colors">
+                    View Setup Guide
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="text-slate-600 text-sm">
+                    <p>© 2026 AI Developer Learning Paths. Open source under MIT License.</p>
+                </div>
+                
+                <div class="flex gap-6">
+                    <a href="https://github.com/dphadtare/ai-developer-learning-paths" 
+                       class="text-slate-600 hover:text-slate-900 transition-colors">
+                        GitHub
+                    </a>
+                    <a href="https://github.com/dphadtare/ai-developer-learning-paths/blob/main/docs/CONTRIBUTING.md" 
+                       class="text-slate-600 hover:text-slate-900 transition-colors">
+                        Contributing
+                    </a>
+                    <a href="https://github.com/dphadtare/ai-developer-learning-paths/issues" 
+                       class="text-slate-600 hover:text-slate-900 transition-colors">
+                        Issues
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
